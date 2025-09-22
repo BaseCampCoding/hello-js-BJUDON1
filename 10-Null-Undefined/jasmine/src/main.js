@@ -20,3 +20,11 @@ let tickts = {
     'B-1234': null
 }
  let ticketIdToCheck = tickts
+ let ticketStatusResult;
+ if (!(ticketIdToCheck in tickts)){
+    ticketStatusResult = 'unkown ticket id';
+ }
+ else if (tickts[ticketIdToCheck]=== null){
+    ticketStatusResult = 'not sold';
+ }
+ else{}
