@@ -20,6 +20,6 @@ console.log('Spy:' + canSpy)
 let canSignalPrisoner = prisonerIsAwake && !archerIsAwake
 //true
 console.log('Signal Prisoner'+ canSignalPrisoner)
-let canFreePrisoner = (petDogIsPresent && !archerIsAwake) || (!petDogIsPresent && prisonerIsAwake && !knightIsAwake)
+let canFreePrisoner = (petDogIsPresent && !archerIsAwake) || (!petDogIsPresent && prisonerIsAwake && !knightIsAwake && !archerIsAwake )
 //true
 console.log('Free Prisoner:' + canFreePrisoner)
